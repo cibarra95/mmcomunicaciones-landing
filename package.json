@@ -18,7 +18,6 @@
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
-  "packageManager": "yarn@4.2.2",
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@typescript-eslint/parser": "^7.18.0",
