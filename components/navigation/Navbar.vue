@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import Sidebar from '~/components/navigation/Sidebar.vue';
-
 defineOptions({
   name: 'Navbar',
 });
@@ -49,5 +47,5 @@ const sidebarIsOpen = ref(false);
       </nav>
     </div>
   </header>
-  <Sidebar />
+  <Sidebar v-model="sidebarIsOpen" />
 </template>

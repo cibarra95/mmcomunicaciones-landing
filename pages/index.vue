@@ -1,5 +1,7 @@
 <script lang="ts" setup>
-import Highlighted from '~/components/highlighted/highlighted.vue';
+defineOptions({
+  name: 'Index',
+});
 </script>
 
 <template>
@@ -23,7 +25,7 @@ import Highlighted from '~/components/highlighted/highlighted.vue';
       >
         Seguridad confiable, visión clara, tranquilidad garantizada
       </h1>
-      <p class="text-white text-lg mt-4 text-slate-600 max-w-xl">
+      <p class="text-white text-lg mt-4 max-w-xl">
         <wbr />
         Protege lo que más importa con tecnología de vigilancia avanzada.
       </p>

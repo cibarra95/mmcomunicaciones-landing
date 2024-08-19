@@ -7,7 +7,7 @@ defineOptions({
 
 const isOpen = defineModel({
   type: Boolean,
-  default: true,
+  required: true,
 });
 
 const slideoverUI = {
