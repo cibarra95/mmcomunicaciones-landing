@@ -11,7 +11,7 @@ import Highlighted from '~/components/highlighted/highlighted.vue';
         alt="Starship starts the engine"
         class="rounded-full transition-transform transform hover:scale-125"
         height="512"
-        loading="eager"
+        loading="lazy"
         src="/hero.jpg"
         width="512"
       />

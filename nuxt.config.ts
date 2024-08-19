@@ -5,6 +5,5 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-08-18',
   image: {
     format: ['webp'],
-    dir: 'public/images',
   },
 });
