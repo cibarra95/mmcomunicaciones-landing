@@ -7,23 +7,23 @@ import {
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Despliegue rápido',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+      'Despliega tus aplicaciones de forma rápida y eficiente con nuestra tecnología avanzada. Asegura la máxima disponibilidad y rendimiento.',
     href: '#',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Certificados SSL',
     description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+      'Protege tus datos con certificados SSL de alta seguridad, garantizando conexiones seguras para tus comunicaciones y aplicaciones.',
     href: '#',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Colas simples',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+      'Gestiona tus tareas de comunicación y seguridad de manera eficiente con nuestras colas simples, optimizando tus procesos.',
     href: '#',
     icon: ArrowPathIcon,
   },
@@ -37,17 +37,17 @@ const features = [
         <h2
           class="text-base font-semibold leading-7 tracking-tight bg-gradient-to-r from-cyan-500 to-cyan-300 inline-block text-transparent bg-clip-text"
         >
-          Deploy faster
+          Despliega más rápido
         </h2>
         <p
           class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl"
         >
-          Everything you need to deploy your app
+          Todo lo que necesitas para desplegar tu sistema de seguridad
         </p>
         <p class="mt-6 text-lg leading-8 text-gray-300">
-          Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-          Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-          In mi viverra elit nunc.
+          Mantén tus comunicaciones seguras y tu red protegida con nuestras
+          soluciones. Estamos aquí para garantizar la tranquilidad y efectividad
+          en cada paso de tu despliegue.
         </p>
       </div>
       <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

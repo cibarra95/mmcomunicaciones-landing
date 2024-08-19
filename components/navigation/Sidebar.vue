@@ -10,24 +10,6 @@ const isOpen = defineModel({
   required: true,
 });
 
-const slideoverUI = {
-  width: 'max-w-screen',
-  overlay: {
-    transition: {
-      enter: 'ease-in-out duration-150',
-      enterFrom: 'opacity-0',
-      enterTo: 'opacity-100',
-      leave: 'ease-in-out duration-150',
-      leaveFrom: 'opacity-100',
-      leaveTo: 'opacity-0',
-    },
-  },
-  transition: {
-    enter: 'transform transition ease-in-out duration-150',
-    leave: 'transform transition ease-in-out duration-150',
-  },
-};
-
 const breakpoints = useBreakpoints(breakpointsTailwind);
 
 const smaller = breakpoints.greaterOrEqual('sm');
@@ -47,10 +29,45 @@ function closeSidebar() {
     isOpen.value = false;
   }, 160);
 }
+
+const ui = {
+  wrapper: 'fixed inset-0 flex z-50',
+  overlay: {
+    base: 'fixed inset-0 transition-opacity',
+    background: 'bg-gray-800/75',
+    transition: {
+      enter: 'ease-in-out duration-500',
+      enterFrom: 'opacity-0',
+      enterTo: 'opacity-100',
+      leave: 'ease-in-out duration-500',
+      leaveFrom: 'opacity-100',
+      leaveTo: 'opacity-0',
+    },
+  },
+  base: 'relative flex-1 flex flex-col w-full focus:outline-none',
+  background: 'bg-gray-900',
+  ring: '',
+  rounded: '',
+  padding: '',
+  shadow: 'shadow-xl',
+  width: 'w-screen max-w-md',
+  height: 'h-screen max-h-96',
+  translate: {
+    base: 'translate-x-0',
+    left: '-translate-x-full rtl:translate-x-full',
+    right: 'translate-x-full rtl:-translate-x-full',
+    top: '-translate-y-full',
+    bottom: 'translate-y-full',
+  },
+  transition: {
+    enter: 'transform transition ease-in-out duration-300',
+    leave: 'transform transition ease-in-out duration-200',
+  },
+};
 </script>
 
 <template>
-  <USlideover v-model="isOpen" :ui="slideoverUI">
+  <USlideover v-model="isOpen" :ui="ui">
     <div class="absolute right-0 mx-6 my-2">
       <UButton
         class="rounded-full"
@@ -66,7 +83,7 @@ function closeSidebar() {
     >
       <li>
         <NuxtLink
-          class="text-gray-900 dark:text-white hover:opacity-60 transition-opacity"
+          class="text-white hover:opacity-60 transition-opacity"
           to="/"
           @click.self="closeSidebar"
         >
@@ -75,7 +92,7 @@ function closeSidebar() {
       </li>
       <li>
         <NuxtLink
-          class="text-gray-900 dark:text-white hover:opacity-60 transition-opacity"
+          class="text-white hover:opacity-60 transition-opacity"
           to="/acerca"
           @click.self="closeSidebar"
         >
@@ -84,8 +101,9 @@ function closeSidebar() {
       </li>
       <li>
         <NuxtLink
-          class="text-gray-900 dark:text-white hover:opacity-60 transition-opacity"
+          class="text-white hover:opacity-60 transition-opacity"
           to="/contacto"
+          @click.self="closeSidebar"
         >
           Contacto
         </NuxtLink>

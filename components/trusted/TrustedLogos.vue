@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="bg-gray-900 py-24 sm:py-32">
+  <div class="bg-gray-900 py-24 sm:py-32 px-6 sm:px-4">
     <div class="flex items-center justify-center">
       <h3
         class="mb-8 text-3xl font-bold tracking-tight bg-gradient-to-r from-cyan-500 to-cyan-300 inline-block text-transparent bg-clip-text"
