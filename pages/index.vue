@@ -3,7 +3,9 @@ import Highlighted from '~/components/highlighted/highlighted.vue';
 </script>
 
 <template>
-  <div class="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8">
+  <div
+    class="mx-auto max-w-7xl grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8"
+  >
     <div class="p-24 md:order-1 hidden md:block">
       <img
         alt="Starship starts the engine"
@@ -11,7 +13,7 @@ import Highlighted from '~/components/highlighted/highlighted.vue';
         format="avif"
         height="512"
         loading="eager"
-        src="~/assets/images/hero.jpg"
+        src="../public/hero.jpg"
         width="512"
       />
     </div>

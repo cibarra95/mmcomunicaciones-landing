@@ -6,24 +6,24 @@ defineComponent({
 });
 
 const items1 = [
-  'cctv.jpg',
-  'cameras.jpg',
-  'drone.jpg',
-  'cctv2.jpg',
+  '/cctv.jpg',
+  '/cameras.jpg',
+  '/drone.jpg',
+  '/cctv2.jpg',
 ] as string[];
 
 const items2 = [
-  'cctv.jpg',
-  'cameras.jpg',
-  'drone.jpg',
-  'cctv2.jpg',
+  '/cctv.jpg',
+  '/cameras.jpg',
+  '/drone.jpg',
+  '/cctv2.jpg',
 ] as string[];
 
 const items3 = [
-  'cctv.jpg',
-  'cameras.jpg',
-  'drone.jpg',
-  'cctv2.jpg',
+  '/cctv.jpg',
+  '/cameras.jpg',
+  '/drone.jpg',
+  '/cctv2.jpg',
 ] as string[];
 
 const carouselRef = ref();
@@ -95,7 +95,7 @@ onMounted(() => {
           :ui="{ item: 'basis-full' }"
           class="highlighted-carousel-third"
         >
-          <img :src="item" alt="trabajos" height="800" width="600" />
+          <NuxtImg :draggable="false" :src="item" height="800" width="600" />
         </UCarousel>
       </div>
     </div>
