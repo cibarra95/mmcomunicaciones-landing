@@ -7,13 +7,12 @@ import Highlighted from '~/components/highlighted/highlighted.vue';
     class="mx-auto max-w-7xl grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8"
   >
     <div class="p-24 md:order-1 hidden md:block">
-      <img
+      <NuxtImg
         alt="Starship starts the engine"
         class="rounded-full transition-transform transform hover:scale-125"
-        format="avif"
         height="512"
         loading="eager"
-        src="../public/hero.jpg"
+        src="/hero.jpg"
         width="512"
       />
     </div>
