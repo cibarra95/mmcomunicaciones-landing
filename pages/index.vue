@@ -51,6 +51,9 @@ import Highlighted from '~/components/highlighted/highlighted.vue';
     </div>
   </div>
   <Highlighted />
+  <Features />
+  <TrustedLogos />
+  <CallMe />
 </template>
 
 <style scoped></style>

@@ -105,7 +105,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 .highlighted {
   &-container {
-    @apply bg-white py-24 sm:py-32;
+    @apply py-24 sm:py-32;
   }
 
   &-responsive {
@@ -116,7 +116,7 @@ onMounted(() => {
     @apply mx-auto max-w-2xl lg:mx-0;
 
     &-color {
-      @apply text-5xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-[#1B2450] via-[#7CAAF1] to-[#9AC0F6] inline-block text-transparent bg-clip-text;
+      @apply text-5xl font-bold tracking-tight bg-gradient-to-r from-cyan-500 to-cyan-300 inline-block text-transparent bg-clip-text;
     }
   }
 
