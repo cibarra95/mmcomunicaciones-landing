@@ -32,6 +32,7 @@ defineOptions({
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <UButton
           :ui="{ rounded: 'rounded-md' }"
+          color="primary"
           rel="noopener"
           size="lg"
           target="_self"
@@ -41,7 +42,7 @@ defineOptions({
           Acerca de
         </UButton>
         <UButton
-          color="orange"
+          color="amber"
           rel="noopener"
           size="lg"
           target="_self"
