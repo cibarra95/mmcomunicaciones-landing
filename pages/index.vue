@@ -42,7 +42,7 @@ defineOptions({
           Acerca de
         </UButton>
         <UButton
-          color="amber"
+          color="orange"
           rel="noopener"
           size="lg"
           target="_self"
