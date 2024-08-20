@@ -31,10 +31,9 @@ defineOptions({
       </p>
       <div class="mt-6 flex flex-col sm:flex-row gap-3">
         <UButton
-          :ui="{ rounded: 'rounded-md' }"
           color="primary"
           rel="noopener"
-          size="lg"
+          size="xl"
           target="_self"
           to="/acerca"
           variant="solid"
@@ -44,10 +43,10 @@ defineOptions({
         <UButton
           color="orange"
           rel="noopener"
-          size="lg"
+          size="xl"
           target="_self"
           to="/contacto"
-          variant="outline"
+          variant="soft"
         >
           Contactanos
         </UButton>

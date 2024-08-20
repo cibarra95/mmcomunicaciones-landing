@@ -12,12 +12,34 @@
       </h2>
       <div class="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
         <a
+          v-if="false"
           class="rounded-md bg-indigo-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           href="tel:+52 477 777 1140"
           target="_blank"
           >Llámanos
         </a>
+        <UButton
+          color="indigo"
+          rel="noopener"
+          size="xl"
+          target="_blank"
+          to="tel:+52 477 777 1140"
+          variant="solid"
+        >
+          Llámanos
+        </UButton>
+        <UButton
+          color="lime"
+          rel="noopener"
+          size="xl"
+          target="_blank"
+          to="https://wa.me/4703000148?text=Hola,%20quiero%20más%20información"
+          variant="solid"
+        >
+          WhatsApp
+        </UButton>
         <a
+          v-if="false"
           class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           href="https://wa.me/4703000148?text=Hola,%20quiero%20más%20información"
           target="_blank"
