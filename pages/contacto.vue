@@ -8,17 +8,17 @@
       >
         <div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
           <div>
-            <h2 class="text-3xl font-bold tracking-tight text-cyan-500">
+            <h2 class="text-3xl font-bold tracking-tight text-mm-500">
               Manten el contacto
             </h2>
-            <p class="mt-4 leading-7 text-white">
+            <p class="mt-4 leading-7 text-gray-700">
               Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac pellentesque.
             </p>
           </div>
           <div
             class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8"
           >
-            <div class="rounded-2xl bg-gray-50 p-10">
+            <div class="rounded-2xl bg-mm-500/15 p-10">
               <h3 class="text-base font-semibold leading-7 text-gray-900">
                 Colabora
               </h3>
@@ -27,7 +27,7 @@
                   <dt class="sr-only">Email</dt>
                   <dd>
                     <a
-                      class="font-semibold text-indigo-600"
+                      class="font-semibold text-mm-500"
                       href="mailto:collaborate@example.com"
                       >collaborate@example.com</a
                     >
@@ -39,7 +39,7 @@
                 </div>
               </dl>
             </div>
-            <div class="rounded-2xl bg-gray-50 p-10">
+            <div class="rounded-2xl bg-mm-500/15 p-10">
               <h3 class="text-base font-semibold leading-7 text-gray-900">
                 Dudas
               </h3>
@@ -48,7 +48,7 @@
                   <dt class="sr-only">Email</dt>
                   <dd>
                     <a
-                      class="font-semibold text-indigo-600"
+                      class="font-semibold text-mm-500"
                       href="mailto:press@example.com"
                       >press@example.com</a
                     >
@@ -60,7 +60,7 @@
                 </div>
               </dl>
             </div>
-            <div class="rounded-2xl bg-gray-50 p-10">
+            <div class="rounded-2xl bg-mm-500/15 p-10">
               <h3 class="text-base font-semibold leading-7 text-gray-900">
                 Unete a nuestro equipo
               </h3>
@@ -69,7 +69,7 @@
                   <dt class="sr-only">Email</dt>
                   <dd>
                     <a
-                      class="font-semibold text-indigo-600"
+                      class="font-semibold text-mm-500"
                       href="mailto:careers@example.com"
                       >careers@example.com</a
                     >
@@ -81,7 +81,7 @@
                 </div>
               </dl>
             </div>
-            <div class="rounded-2xl bg-gray-50 p-10">
+            <div class="rounded-2xl bg-mm-500/15 p-10">
               <h3 class="text-base font-semibold leading-7 text-gray-900">
                 Soporte
               </h3>
@@ -90,7 +90,7 @@
                   <dt class="sr-only">Email</dt>
                   <dd>
                     <a
-                      class="font-semibold text-indigo-600"
+                      class="font-semibold text-mm-500"
                       href="mailto:hello@example.com"
                       >hello@example.com</a
                     >
@@ -106,10 +106,10 @@
         </div>
         <div class="grid grid-cols-1 gap-x-8 gap-y-10 pt-16 lg:grid-cols-3">
           <div>
-            <h2 class="text-3xl font-bold tracking-tight text-cyan-500">
+            <h2 class="text-3xl font-bold tracking-tight text-mm-500">
               Ubicaciones
             </h2>
-            <p class="mt-4 leading-7 text-white">
+            <p class="mt-4 leading-7 text-gray-700">
               Consequat sunt cillum cillum elit sint. Qui occaecat nisi in ipsum
               commodo.
             </p>
@@ -117,7 +117,7 @@
           <div
             class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8"
           >
-            <div class="rounded-2xl bg-gray-50 p-10">
+            <div class="rounded-2xl bg-mm-500/15 p-10">
               <h3 class="text-base font-semibold leading-7 text-gray-900">
                 León, Gto.
               </h3>

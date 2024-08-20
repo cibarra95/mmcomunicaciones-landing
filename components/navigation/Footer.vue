@@ -54,7 +54,7 @@ function getCurrentYear() {
 </script>
 
 <template>
-  <footer aria-labelledby="footer-heading" class="bg-gray-800">
+  <footer aria-labelledby="footer-heading" class="bg-mm-500/20">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -64,7 +64,7 @@ function getCurrentYear() {
             class="h-10"
             src="../../public/logo.png"
           />
-          <p class="text-sm leading-6 text-gray-300">
+          <p class="text-sm leading-6 text-gray-700">
             Somos la seguridad, que da confianza.
           </p>
           <div class="flex space-x-6">
@@ -72,7 +72,7 @@ function getCurrentYear() {
               v-for="item in navigation.social"
               :key="item.name"
               :href="item.href"
-              class="text-gray-500 hover:text-cyan-700"
+              class="text-gray-700 hover:text-mm-500"
             >
               <span class="sr-only">{{ item.name }}</span>
               <component :is="item.icon" aria-hidden="true" class="h-6 w-6" />
@@ -82,14 +82,14 @@ function getCurrentYear() {
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">
+              <h3 class="text-sm font-semibold leading-6 text-mm-700">
                 Soluciones
               </h3>
               <ul class="mt-6 space-y-4" role="list">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <NuxtLink
                     :to="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-cyan-700"
+                    class="text-sm leading-6 text-gray-700 hover:text-mm-500"
                   >
                     {{ item.name }}
                   </NuxtLink>
@@ -97,14 +97,14 @@ function getCurrentYear() {
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">
+              <h3 class="text-sm font-semibold leading-6 text-mm-700">
                 Soporte
               </h3>
               <ul class="mt-6 space-y-4" role="list">
                 <li v-for="item in navigation.support" :key="item.name">
                   <NuxtLink
                     :to="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-cyan-700"
+                    class="text-sm leading-6 text-gray-700 hover:text-mm-500"
                   >
                     {{ item.name }}
                   </NuxtLink>
@@ -143,7 +143,7 @@ function getCurrentYear() {
         </div>
       </div>
       <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-        <p class="text-xs leading-5 text-gray-400">
+        <p class="text-xs leading-5 text-gray-700">
           &copy; {{ getCurrentYear() }} mm-comunicaciones, todos los derechos
           reservados.
         </p>

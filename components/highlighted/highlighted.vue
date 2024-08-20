@@ -116,7 +116,7 @@ onMounted(() => {
     @apply mx-auto max-w-2xl lg:mx-0;
 
     &-color {
-      @apply text-5xl font-bold tracking-tight bg-gradient-to-r from-cyan-500 to-cyan-300 inline-block text-transparent bg-clip-text;
+      @apply text-5xl font-bold tracking-tight bg-gradient-to-r from-mm-600 to-mm-500 inline-block text-transparent bg-clip-text;
     }
   }
 

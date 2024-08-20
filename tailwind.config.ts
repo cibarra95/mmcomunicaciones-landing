@@ -4,6 +4,17 @@ import defaultTheme from 'tailwindcss/defaultTheme';
 export default <Partial<Config>>{
   theme: {
     extend: {
+      colors: {
+        mm: {
+          300: '#E8F1F2',
+          500: '#3D9494',
+          600: '#214C4D',
+          700: '#190B28',
+        },
+        sunburst: {
+          400: '#E8998D',
+        },
+      },
       keyframes: {
         wave: {
           '0%': { transform: 'rotate(0.0deg)' },

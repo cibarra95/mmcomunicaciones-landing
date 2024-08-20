@@ -38,28 +38,31 @@ const timeline = [
     <main class="isolate">
       <!-- Hero section -->
       <div
-        class="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-cyan-100/20 pt-14"
+        class="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-mm-700/20 pt-14"
       >
         <div
           aria-hidden="true"
-          class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-cyan-500/50 shadow-xl shadow-cyan-600/10 ring-1 ring-cyan-50 sm:-mr-80 lg:-mr-96"
+          class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-mm-500/50 shadow-xl shadow-mm-600/10 ring-1 ring-mm-300 sm:-mr-80 lg:-mr-96"
         />
         <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
           <div
             class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8"
           >
             <h1
-              class="max-w-2xl text-4xl font-bold tracking-tight text-cyan-300 sm:text-6xl lg:col-span-2 xl:col-auto"
+              class="max-w-2xl text-4xl font-bold tracking-tight text-mm-600 sm:text-6xl lg:col-span-2 xl:col-auto"
             >
-              Somos un grupo apasionado de personas trabajando para construir
-              mejores cosas.
+              Líderes en Tecnología Inalámbrica y Sistemas de Seguridad.
             </h1>
             <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p class="text-lg leading-8 text-white">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt
-                sunt. Qui irure qui lorem cupidatat commodo.
+              <p class="text-lg leading-8 text-white text-justify">
+                Con más de 30 años de trayectoria, seguimos trabajando día a día
+                para mejorar nuestros servicios y transmitirles que estamos
+                comprometidos con nuestros clientes para seguir cumpliendo con
+                sus expectativas y, si es posible, superarlas.
+                <br />
+                <br />
+                Soluciones en materia de comunicación inalámbrica y sistemas de
+                seguridad profesional
               </p>
             </div>
             <img
@@ -70,7 +73,7 @@ const timeline = [
           </div>
         </div>
         <div
-          class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-cyan-500/30 sm:h-32"
+          class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-mm-500/30 sm:h-32"
         />
       </div>
 
@@ -82,7 +85,7 @@ const timeline = [
           <div v-for="item in timeline" :key="item.name">
             <time
               :datetime="item.dateTime"
-              class="flex items-center text-sm font-semibold leading-6 text-cyan-300"
+              class="flex items-center text-sm font-semibold leading-6 text-mm-600"
             >
               <svg
                 aria-hidden="true"
@@ -92,13 +95,13 @@ const timeline = [
                 <circle cx="2" cy="2" fill="currentColor" r="2" />
               </svg>
               {{ item.date }}
-              <div
+              <span
                 aria-hidden="true"
                 class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0"
               />
             </time>
             <p
-              class="mt-6 text-lg font-semibold leading-8 tracking-tight text-cyan-500"
+              class="mt-6 text-lg font-semibold leading-8 tracking-tight text-mm-500"
             >
               {{ item.name }}
             </p>
@@ -112,7 +115,7 @@ const timeline = [
       <!-- Logo cloud -->
       <div class="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
         <div
-          class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+          class="relative isolate overflow-hidden bg-mm-600 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
           <h2
             class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
@@ -168,7 +171,7 @@ const timeline = [
             class="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl"
           >
             <div
-              class="aspect-[1404/767] w-[87.75rem] bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-25"
+              class="aspect-[1404/767] w-[87.75rem] bg-gradient-to-r from-mm-500 to-mm-300 opacity-25"
               style="
                 clip-path: polygon(
                   73.6% 51.7%,
@@ -202,16 +205,16 @@ const timeline = [
           >
             <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
               <h2
-                class="text-3xl font-bold tracking-tight text-cyan-500 sm:text-4xl"
+                class="text-3xl font-bold tracking-tight text-mm-500 sm:text-4xl"
               >
                 Nuestras personas
               </h2>
-              <p class="mt-6 text-xl leading-8 text-gray-600">
+              <p class="mt-6 text-xl leading-8 text-gray-700">
                 Quasi est quaerat. Sit molestiae et. Provident ad dolorem
                 occaecati eos iste. Soluta rerum quidem minus ut molestiae velit
                 error quod. Excepturi quidem expedita molestias quas.
               </p>
-              <p class="mt-6 text-base leading-7 text-gray-600">
+              <p class="mt-6 text-base leading-7 text-gray-700">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat. Quasi aperiam sit non sit neque reprehenderit.

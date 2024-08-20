@@ -7,12 +7,12 @@ const sidebarIsOpen = ref(false);
 
 <template>
   <header
-    class="sticky top-0 z-10 border-b border-solid py-2 border-gray-900 bg-gray-900/60 sm:py-3 backdrop-blur-xl h-[61px]"
+    class="sticky top-0 z-10 border-b border-solid py-2 border-gray-900 bg-white/40 sm:py-3 backdrop-blur-xl h-[68px]"
   >
     <div class="m-auto container px-6 sm:px-0">
       <nav class="flex items-center justify-between font-semibold">
         <NuxtLink to="/">
-          <img alt="logo" class="h-8" src="../../public/logo.png" />
+          <img alt="logo" class="h-10 w-auto" src="../../public/logo.png" />
         </NuxtLink>
         <div
           class="flex flex-row-reverse gap-3 items-center sm:flex-row h-[36px]"
@@ -20,7 +20,7 @@ const sidebarIsOpen = ref(false);
           <ul class="hidden grid-flow-col gap-6 text-sm font-medium sm:grid">
             <li>
               <NuxtLink
-                class="text-white hover:text-cyan-500 hover:opacity-60 transition-opacity"
+                class="text-mm-600 hover:text-mm-500 transition-opacity"
                 to="/acerca"
               >
                 Acerca de
@@ -28,7 +28,7 @@ const sidebarIsOpen = ref(false);
             </li>
             <li>
               <NuxtLink
-                class="text-white hover:text-cyan-500 hover:opacity-60 transition-opacity"
+                class="text-mm-600 hover:text-mm-500 transition-opacity"
                 to="/contacto"
               >
                 Contacto

@@ -31,20 +31,18 @@ const features = [
 </script>
 
 <template>
-  <div class="bg-gray-900 py-24 sm:py-32">
+  <div class="bg-mm-300 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:text-center">
         <h2
-          class="text-base font-semibold leading-7 tracking-tight bg-gradient-to-r from-cyan-500 to-cyan-300 inline-block text-transparent bg-clip-text"
+          class="text-base font-semibold leading-7 tracking-tight bg-gradient-to-r from-mm-600 to-mm-500 inline-block text-transparent bg-clip-text"
         >
           Despliega más rápido
         </h2>
-        <p
-          class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl"
-        >
+        <p class="mt-2 text-3x text-black font-bold tracking-tight sm:text-4xl">
           Todo lo que necesitas para desplegar tu sistema de seguridad
         </p>
-        <p class="mt-6 text-lg leading-8 text-gray-300">
+        <p class="mt-6 text-lg leading-8 text-gray-600">
           Mantén tus comunicaciones seguras y tu red protegida con nuestras
           soluciones. Estamos aquí para garantizar la tranquilidad y efectividad
           en cada paso de tu despliegue.
@@ -60,17 +58,17 @@ const features = [
             class="flex flex-col"
           >
             <dt
-              class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white"
+              class="flex items-center gap-x-3 text-base font-semibold leading-7"
             >
               <component
                 :is="feature.icon"
                 aria-hidden="true"
-                class="h-5 w-5 flex-none text-cyan-400"
+                class="h-5 w-5 flex-none text-mm-500"
               />
               {{ feature.name }}
             </dt>
             <dd
-              class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300"
+              class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-700"
             >
               <p class="flex-auto">{{ feature.description }}</p>
             </dd>

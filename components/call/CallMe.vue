@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="bg-gradient-to-r from-cyan-900 to-blue-900">
+  <div class="bg-gradient-to-r from-mm-700 to-mm-600">
     <div
       class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8"
     >

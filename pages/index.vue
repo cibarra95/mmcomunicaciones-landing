@@ -21,11 +21,11 @@ defineOptions({
 
     <div class="px-5">
       <h1
-        class="text-cyan-500 text-5xl lg:text-6xl font-bold lg:tracking-tight"
+        class="text-mm-500 text-5xl lg:text-6xl font-bold lg:tracking-tight bg-gradient-to-r from-mm-600 to-mm-500 inline-block text-transparent bg-clip-text"
       >
         Seguridad confiable, visión clara, tranquilidad garantizada
       </h1>
-      <p class="text-white text-lg mt-4 max-w-xl">
+      <p class="text-black text-lg mt-4 max-w-xl">
         <wbr />
         Protege lo que más importa con tecnología de vigilancia avanzada.
       </p>
@@ -41,6 +41,7 @@ defineOptions({
           Acerca de
         </UButton>
         <UButton
+          color="orange"
           rel="noopener"
           size="lg"
           target="_self"

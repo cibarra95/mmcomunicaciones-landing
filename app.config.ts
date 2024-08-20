@@ -1,7 +1,8 @@
 export default defineAppConfig({
   title: 'Hello Nuxt',
   ui: {
-    primary: 'cyan',
+    primary: 'mm',
+    amber: 'sunburst',
   },
   theme: {
     dark: true,
