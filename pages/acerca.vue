@@ -1,31 +1,31 @@
 <script lang="ts" setup>
 const timeline = [
   {
-    name: 'Founded company',
+    name: 'Fundaron la empresa',
     description:
-      'Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.',
-    date: 'Aug 2021',
+      'Marcando el inicio de su trayectoria en el mercado de las comunicaciones.',
+    date: '1991',
     dateTime: '2021-08',
   },
   {
-    name: 'Secured $65m in funding',
+    name: 'Reconocimiento',
     description:
-      'Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.',
-    date: 'Dec 2021',
+      'Recibieron el reconocimiento como distribuidor ELITE ORO, destacándose en el sector con marcas líderes como Kenwood, Motorola y Icom.',
+    date: '1998',
     dateTime: '2021-12',
   },
   {
-    name: 'Released beta',
+    name: 'Nuevas Instalaciones',
     description:
-      'Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.',
-    date: 'Feb 2022',
+      'Realizaron una de las instalaciones más grandes y robustas de Latinoamérica, lo que los posicionó como líderes en la región.',
+    date: '2008',
     dateTime: '2022-02',
   },
   {
-    name: 'Global launch of product',
+    name: 'Grandes proyectos',
     description:
-      'Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.',
-    date: 'Dec 2022',
+      'Participaron en proyectos de gran relevancia nacional, como el Tren Maya y el Aeropuerto de Tulum, lo que reforzó su prestigio y crecimiento.',
+    date: '2023',
     dateTime: '2022-12',
   },
 ];

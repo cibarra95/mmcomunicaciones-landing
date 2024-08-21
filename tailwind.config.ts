@@ -37,7 +37,7 @@ export default <Partial<Config>>{
           600: '#214C4D',
           700: '#190B28',
         },
-        orange: {
+        'teal-pink': {
           '50': '#fcf5f4',
           '100': '#fae9e6',
           '200': '#f7d6d1',

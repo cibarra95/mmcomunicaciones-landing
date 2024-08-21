@@ -53,9 +53,9 @@ defineOptions({
       </div>
     </div>
   </div>
-  <Highlighted />
   <Features />
   <TrustedLogos />
+  <Highlighted />
   <CallMe />
 </template>
 

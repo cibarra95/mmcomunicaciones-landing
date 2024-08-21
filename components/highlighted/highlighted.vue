@@ -76,7 +76,14 @@ onMounted(() => {
           :ui="{ item: 'basis-full' }"
           class="highlighted-carousel-first"
         >
-          <NuxtImg :draggable="false" :src="item" height="800" width="600" />
+          <NuxtImg
+            :draggable="false"
+            :src="item"
+            class="object-cover"
+            format="webp"
+            height="800"
+            width="600"
+          />
         </UCarousel>
 
         <UCarousel
@@ -86,7 +93,14 @@ onMounted(() => {
           :ui="{ item: 'basis-full' }"
           class="highlighted-carousel-second"
         >
-          <NuxtImg :draggable="false" :src="item" height="800" width="600" />
+          <NuxtImg
+            :draggable="false"
+            :src="item"
+            class="object-cover"
+            format="webp"
+            height="800"
+            width="600"
+          />
         </UCarousel>
         <UCarousel
           ref="carouselRef2"
@@ -95,7 +109,14 @@ onMounted(() => {
           :ui="{ item: 'basis-full' }"
           class="highlighted-carousel-third"
         >
-          <NuxtImg :draggable="false" :src="item" height="800" width="600" />
+          <NuxtImg
+            :draggable="false"
+            :src="item"
+            class="object-cover"
+            format="webp"
+            height="800"
+            width="600"
+          />
         </UCarousel>
       </div>
     </div>

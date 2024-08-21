@@ -14,57 +14,63 @@
         class="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3"
       >
         <div class="bg-mm-500/30 p-8 sm:p-10">
-          <img
-            alt="Transistor"
+          <NuxtImg
+            alt="Pirelli"
             class="max-h-12 w-full object-contain"
+            format="webp"
             height="48"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
+            src="/pirelli.png"
             width="158"
           />
         </div>
         <div class="bg-mm-500/30 p-6 sm:p-10">
-          <img
-            alt="Reform"
+          <NuxtImg
+            alt="dinamica"
             class="max-h-12 w-full object-contain"
+            format="webp"
             height="48"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
+            src="/dinamica.png"
             width="158"
           />
         </div>
         <div class="bg-mm-500/30 p-6 sm:p-10">
-          <img
-            alt="Tuple"
+          <NuxtImg
+            alt="santo-domingo"
             class="max-h-12 w-full object-contain"
+            format="webp"
             height="48"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
+            src="/santodomingo.png"
             width="158"
           />
         </div>
         <div class="bg-mm-500/30 p-6 sm:p-10">
-          <img
+          <NuxtImg
             alt="Laravel"
             class="max-h-12 w-full object-contain"
+            format="webp"
             height="48"
-            src="https://tailwindui.com/img/logos/158x48/laravel-logo-white.svg"
-            width="158"
+            src="/poliforum.png"
+            width="120"
           />
         </div>
         <div class="bg-mm-500/30 p-6 sm:p-10">
-          <img
+          <NuxtImg
             alt="SavvyCal"
             class="max-h-12 w-full object-contain"
-            height="48"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-            width="158"
+            format="webp"
+            height="50"
+            src="/plazamayor.png"
+            width="65"
           />
         </div>
         <div class="bg-mm-500/30 p-6 sm:p-10">
-          <img
+          <NuxtImg
             alt="Statamic"
             class="max-h-12 w-full object-contain"
+            format="webp"
             height="48"
-            src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-            width="158"
+            src="/bomberos.png"
+            width="90"
           />
         </div>
       </div>
