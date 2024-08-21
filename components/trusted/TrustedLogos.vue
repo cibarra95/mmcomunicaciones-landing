@@ -11,36 +11,30 @@
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
-        class="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3"
+        class="-mx-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3"
       >
-        <div class="bg-mm-500/30 p-8 sm:p-10">
+        <div class="bg-mm-500/30 p-8 sm:p-10 flex items-center justify-center">
           <NuxtImg
             alt="Pirelli"
-            class="max-h-12 w-full object-contain"
+            class="h-40 w-auto mx-auto object-contain flex-1"
             format="webp"
-            height="48"
             src="/pirelli.png"
-            width="158"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10">
+        <div class="bg-mm-500/30 p-6 sm:p-10 flex items-center justify-center">
           <NuxtImg
             alt="dinamica"
-            class="max-h-12 w-full object-contain"
+            class="h-40 w-auto m-auto object-contain flex-1"
             format="webp"
-            height="48"
             src="/dinamica.png"
-            width="158"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10">
+        <div class="bg-mm-500/30 p-6 sm:p-10 flex items-center justify-center">
           <NuxtImg
             alt="santo-domingo"
-            class="max-h-12 w-full object-contain"
+            class="h-28 w-auto object-contain flex-1"
             format="webp"
-            height="48"
             src="/santodomingo.png"
-            width="158"
           />
         </div>
         <div class="bg-mm-500/30 p-6 sm:p-10">
