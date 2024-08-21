@@ -13,7 +13,7 @@
       <div
         class="-mx-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3"
       >
-        <div class="bg-mm-500/30 p-8 sm:p-10 flex items-center justify-center">
+        <div class="bg-mm-500/30 p-6 flex items-center justify-center h-48">
           <NuxtImg
             alt="Pirelli"
             class="h-40 w-auto mx-auto object-contain flex-1"
@@ -21,15 +21,15 @@
             src="/pirelli.png"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10 flex items-center justify-center">
+        <div class="bg-mm-500/30 p-6 flex items-center justify-center h-48">
           <NuxtImg
             alt="dinamica"
-            class="h-40 w-auto m-auto object-contain flex-1"
+            class="h-full w-auto m-auto object-contain flex-1"
             format="webp"
             src="/dinamica.png"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10 flex items-center justify-center">
+        <div class="bg-mm-500/30 p-6 flex items-center justify-center h-48">
           <NuxtImg
             alt="santo-domingo"
             class="h-28 w-auto object-contain flex-1"
@@ -37,34 +37,28 @@
             src="/santodomingo.png"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10">
+        <div class="bg-mm-500/30 p-6 flex items-center justify-center h-48">
           <NuxtImg
             alt="Laravel"
-            class="max-h-12 w-full object-contain"
+            class="h-20 w-auto object-contain flex-1"
             format="webp"
-            height="48"
             src="/poliforum.png"
-            width="120"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10">
+        <div class="bg-mm-500/30 p-6 flex items-center justify-center h-48">
           <NuxtImg
             alt="SavvyCal"
-            class="max-h-12 w-full object-contain"
+            class="h-20 w-auto object-contain flex-1"
             format="webp"
-            height="50"
             src="/plazamayor.png"
-            width="65"
           />
         </div>
-        <div class="bg-mm-500/30 p-6 sm:p-10">
+        <div class="bg-mm-500/30 p-6 flex items-center justify-center h-48">
           <NuxtImg
             alt="Statamic"
-            class="max-h-12 w-full object-contain"
+            class="h-28 w-auto object-contain flex-1"
             format="webp"
-            height="48"
             src="/bomberos.png"
-            width="90"
           />
         </div>
       </div>
