@@ -1502,6 +1502,14 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.20.0.tgz#601fffee719a1e8447f908aca97864eec23b2784"
   integrity sha512-aJ1EJSuTdGnM6qbVC4B5DSmozPTqIag9fSzXRNNo+humQLG89XpPgdt16Ia56ORD7s+H8Pmyx44uczDQ0yDzpg==
 
+"@selemondev/vue3-marquee@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@selemondev/vue3-marquee/-/vue3-marquee-0.0.8.tgz#d625c6fe485d5594311ad83170ea8dcc0ad73fc7"
+  integrity sha512-PoZd52L3OywhQzCmrEe+C990z4NBZukGS/jxGjt2Xjv8y/nmJu+3trHM9UP0/8XpYAmcGO2NHy2sVARznV1wBQ==
+  dependencies:
+    tailwindcss-animate "^1.0.7"
+    vue "^3.3.11"
+
 "@sindresorhus/merge-streams@^2.1.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
@@ -7200,6 +7208,11 @@ tailwind-merge@^2.4.0:
   resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-2.5.2.tgz#000f05a703058f9f9f3829c644235f81d4c08a1f"
   integrity sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==
 
+tailwindcss-animate@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz#318b692c4c42676cc9e67b19b78775742388bef4"
+  integrity sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==
+
 tailwindcss@^3.4.7, tailwindcss@~3.4.4:
   version "3.4.10"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.4.10.tgz#70442d9aeb78758d1f911af29af8255ecdb8ffef"
@@ -7875,7 +7888,7 @@ vue-router@^4.4.0:
   dependencies:
     "@vue/devtools-api" "^6.6.3"
 
-vue@^3.4.32, vue@latest:
+vue@^3.3.11, vue@^3.4.32, vue@latest:
   version "3.4.38"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.38.tgz#0ccbb64ed03ef3c4ab73e540793290b18e7c4236"
   integrity sha512-f0ZgN+mZ5KFgVv9wz0f4OgVKukoXtS3nwET4c2vLBGQR50aI8G0cqbFtLlX9Yiyg3LFGBitruPHt2PxwTduJEw==

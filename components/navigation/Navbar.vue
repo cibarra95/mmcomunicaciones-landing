@@ -12,7 +12,12 @@ const sidebarIsOpen = ref(false);
     <div class="m-auto container px-6 sm:px-0">
       <nav class="flex items-center justify-between font-semibold">
         <NuxtLink to="/">
-          <img alt="logo" class="h-10 w-auto" src="../../public/logo.png" />
+          <NuxtImg
+            alt="logo"
+            class="h-10 w-auto"
+            loading="lazy"
+            src="/servicios/logo.png"
+          />
         </NuxtLink>
         <div
           class="flex flex-row-reverse gap-3 items-center sm:flex-row h-[36px]"

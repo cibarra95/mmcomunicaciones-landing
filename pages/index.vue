@@ -14,7 +14,7 @@ defineOptions({
         class="rounded-full transition-transform transform hover:scale-125"
         height="512"
         loading="lazy"
-        src="/hero.jpg"
+        src="/servicios/cctv.jpg"
         width="512"
       />
     </div>
