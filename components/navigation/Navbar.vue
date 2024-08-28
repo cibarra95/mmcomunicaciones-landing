@@ -7,7 +7,7 @@ const sidebarIsOpen = ref(false);
 
 <template>
   <header
-    class="sticky top-0 z-10 border-b border-solid py-2 border-gray-300 bg-white/40 sm:py-3 backdrop-blur-xl h-[68px]"
+    class="sticky top-0 z-20 border-b border-solid py-2 border-gray-300 bg-white/40 sm:py-3 backdrop-blur-xl h-[68px]"
   >
     <div class="m-auto container px-6 sm:px-0">
       <nav class="flex items-center justify-between font-semibold">

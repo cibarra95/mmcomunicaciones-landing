@@ -53,6 +53,7 @@ defineOptions({
       </div>
     </div>
   </div>
+
   <Features />
   <TrustedLogos />
   <Highlighted />
