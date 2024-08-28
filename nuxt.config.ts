@@ -12,8 +12,7 @@ export default defineNuxtConfig({
   image: {
     provider: 'imagekit',
     imagekit: {
-      baseURL:
-        'https://ik.imagekit.io/nkatmmikg/mmcomunicaciones/mmcomunicaciones',
+      baseURL: process.env.IMAGEKIT_URL,
     },
     format: ['webp'],
   },

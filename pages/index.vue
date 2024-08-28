@@ -35,20 +35,20 @@ defineOptions({
           rel="noopener"
           size="xl"
           target="_self"
-          to="/acerca"
+          to="/contacto"
           variant="solid"
         >
-          Acerca de
+          Contactanos
         </UButton>
         <UButton
-          color="orange"
+          color="primary"
           rel="noopener"
           size="xl"
           target="_self"
-          to="/contacto"
-          variant="soft"
+          to="/acerca"
+          variant="outline"
         >
-          Contactanos
+          Acerca de
         </UButton>
       </div>
     </div>
