@@ -45,7 +45,7 @@ const ui = {
     },
   },
   base: 'relative flex-1 flex flex-col w-full focus:outline-none',
-  background: 'bg-mm-600',
+  background: 'bg-plantation-600',
   ring: '',
   rounded: '',
   padding: '',
