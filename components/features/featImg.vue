@@ -20,13 +20,17 @@ defineProps({
     type: Boolean,
     required: true,
   },
+  src: {
+    type: String,
+    required: true,
+  },
 });
 </script>
 
 <template>
   <div class="grid md:grid-cols-2 md:gap-16 gap-8 mt-16 group">
     <div
-      :class="{ 'order-2': inverse }"
+      :class="{ 'lg:order-2': inverse }"
       class="h-[500px] flex items-center justify-center"
     >
       <div class="flex flex-col">
@@ -47,14 +51,12 @@ defineProps({
         </dd>
       </div>
     </div>
-    <div class="h-[500px] relative flex items-center justify-center">
-      <img
-        alt="hola"
-        class="z-10 rounded-xl"
-        src="https://placehold.co/400x400"
-      />
+    <div
+      class="h-[350px] lg:h-[500px] relative flex items-center justify-center"
+    >
+      <NuxtImg :alt="name" :src="src" class="z-10 rounded-xl" />
       <div
-        class="transition ease-in-out delay-50 group-hover:-translate-y-1 group-hover:scale-110 group-hover:bg-plantation-500 duration-300 absolute top-10 left-[40px] -rotate-[8deg] h-[400px] w-[400px] bg-plantation-400 rounded-xl"
+        class="transition ease-in-out delay-50 group-hover:-translate-y-1 group-hover:scale-110 group-hover:bg-plantation-500 duration-300 absolute top-10 left-[40px] -rotate-[8deg] lg:h-[500px] lg:w-[500px] bg-plantation-400 rounded-xl"
       />
     </div>
   </div>

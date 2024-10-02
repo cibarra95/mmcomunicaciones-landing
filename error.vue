@@ -34,7 +34,7 @@ const handleError = () => {
           Inicio
         </UButton>
         <UButton
-          color="orange"
+          color="primary"
           size="xl"
           to="/contacto"
           variant="outline"

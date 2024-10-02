@@ -1,29 +1,24 @@
 <script lang="ts" setup>
-import { NuxtImg } from '#components';
-
 defineComponent({
   name: 'Highlighted',
 });
 
 const items1 = [
-  '/cctv.jpg',
-  '/cameras.jpg',
-  '/drone.jpg',
-  '/cctv2.jpg',
+  '/servicios/foto1.jpg',
+  '/servicios/foto4.jpg',
+  '/servicios/foto7.jpg',
 ] as string[];
 
 const items2 = [
-  '/cctv.jpg',
-  '/cameras.jpg',
-  '/drone.jpg',
-  '/cctv2.jpg',
+  '/servicios/foto2.jpg',
+  '/servicios/foto5.jpg',
+  '/servicios/foto8.jpg',
 ] as string[];
 
 const items3 = [
-  '/cctv.jpg',
-  '/cameras.jpg',
-  '/drone.jpg',
-  '/cctv2.jpg',
+  '/servicios/foto3.jpg',
+  '/servicios/foto6.jpg',
+  '/servicios/foto9.jpg',
 ] as string[];
 
 const carouselRef = ref();
@@ -49,7 +44,7 @@ onMounted(() => {
     }
 
     carouselRef1.value.next();
-  }, 5000);
+  }, 4500);
   setInterval(() => {
     if (!carouselRef2.value) return;
 
@@ -58,7 +53,7 @@ onMounted(() => {
     }
 
     carouselRef2.value.next();
-  }, 6000);
+  }, 5000);
 });
 </script>
 

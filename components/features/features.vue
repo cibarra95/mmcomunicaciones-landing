@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+defineOptions({
+  name: 'Features',
+});
+
 const features = [
   {
     name: 'Videovigilancia',
@@ -7,6 +11,7 @@ const features = [
     href: '#',
     icon: 'heroicons:video-camera-16-solid',
     inverse: false,
+    src: '/servicios/servicio8.png',
   },
   {
     name: 'Control de Acceso',
@@ -15,6 +20,7 @@ const features = [
     href: '#',
     icon: 'heroicons:finger-print-16-solid',
     inverse: true,
+    src: '/servicios/servicio3.png',
   },
   {
     name: 'Alarmas',
@@ -23,6 +29,7 @@ const features = [
     href: '#',
     icon: 'heroicons:bell-16-solid',
     inverse: false,
+    src: '/servicios/servicio4.png',
   },
   {
     name: 'Radiocomunicación',
@@ -31,6 +38,7 @@ const features = [
     href: '#',
     icon: 'heroicons:signal-16-solid',
     inverse: true,
+    src: '/servicios/servicio1.png',
   },
   {
     name: 'Redes, Audio-Video',
@@ -39,6 +47,7 @@ const features = [
     href: '#',
     icon: 'heroicons:wifi-16-solid',
     inverse: false,
+    src: '/servicios/servicio2.png',
   },
   {
     name: 'IoT/GPS/Telemática y Señalización',
@@ -47,6 +56,7 @@ const features = [
     href: '#',
     icon: 'heroicons:chart-bar-16-solid',
     inverse: true,
+    src: '/servicios/servicio5.png',
   },
 ];
 </script>
@@ -77,6 +87,7 @@ const features = [
         :icon="item.icon"
         :inverse="item.inverse"
         :name="item.name"
+        :src="item.src"
       />
     </div>
   </div>

@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import SemiFeat from '~/components/features/SemiFeat.vue';
+
 defineOptions({
   name: 'Index',
 });
@@ -6,56 +8,109 @@ defineOptions({
 
 <template>
   <div
-    class="mx-auto max-w-7xl grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-8"
+    class="relative isolate overflow-hidden bg-plantation-600 pb-16 pt-14 sm:pb-20"
   >
-    <div class="p-24 md:order-1 hidden md:block">
-      <NuxtImg
-        alt="Starship starts the engine"
-        class="rounded-full transition-transform transform hover:scale-125"
-        height="512"
-        loading="lazy"
-        src="/servicios/cctv.jpg"
-        width="512"
-      />
+    <NuxtImg
+      alt="hero-cctv"
+      class="absolute inset-0 -z-10 h-full w-full object-cover"
+      src="/hero/cctv2.jpg"
+    />
+    <div
+      aria-hidden="true"
+      class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+    >
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#7cccc7] to-[#3D9494] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="
+          clip-path: polygon(
+            74.1% 44.1%,
+            100% 61.6%,
+            97.5% 26.9%,
+            85.5% 0.1%,
+            80.7% 2%,
+            72.5% 32.5%,
+            60.2% 62.4%,
+            52.4% 68.1%,
+            47.5% 58.3%,
+            45.2% 34.5%,
+            27.5% 76.7%,
+            0.1% 64.9%,
+            17.9% 100%,
+            27.6% 76.8%,
+            76.1% 97.7%,
+            74.1% 44.1%
+          );
+        "
+      ></div>
     </div>
-
-    <div class="px-5">
-      <h1
-        class="text-mm-500 text-5xl lg:text-6xl font-bold lg:tracking-tight bg-gradient-to-r from-mm-600 to-mm-500 inline-block text-transparent bg-clip-text"
-      >
-        Seguridad confiable, visión clara, tranquilidad garantizada
-      </h1>
-      <p class="text-black text-lg mt-4 max-w-xl">
-        <wbr />
-        Protege lo que más importa con tecnología de vigilancia avanzada.
-      </p>
-      <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <UButton
-          color="primary"
-          rel="noopener"
-          size="xl"
-          target="_self"
-          to="/contacto"
-          variant="solid"
-        >
-          Contactanos
-        </UButton>
-        <UButton
-          color="primary"
-          rel="noopener"
-          size="xl"
-          target="_self"
-          to="/acerca"
-          variant="outline"
-        >
-          Acerca de
-        </UButton>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div class="text-center">
+          <h1
+            class="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl"
+          >
+            Seguridad confiable, visión clara, tranquilidad garantizada.
+          </h1>
+          <p class="mt-6 text-lg leading-8 text-gray-300">
+            Protege lo que más importa con tecnología de vigilancia avanzada.
+          </p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <UButton
+              color="primary"
+              rel="noopener"
+              size="xl"
+              target="_self"
+              to="/contacto"
+              variant="solid"
+            >
+              Contactanos
+            </UButton>
+            <UButton
+              color="primary"
+              rel="noopener"
+              size="xl"
+              target="_self"
+              to="/acerca"
+              variant="outline"
+            >
+              Nosotros
+            </UButton>
+          </div>
+        </div>
       </div>
     </div>
+    <div
+      aria-hidden="true"
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+    >
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="
+          clip-path: polygon(
+            74.1% 44.1%,
+            100% 61.6%,
+            97.5% 26.9%,
+            85.5% 0.1%,
+            80.7% 2%,
+            72.5% 32.5%,
+            60.2% 62.4%,
+            52.4% 68.1%,
+            47.5% 58.3%,
+            45.2% 34.5%,
+            27.5% 76.7%,
+            0.1% 64.9%,
+            17.9% 100%,
+            27.6% 76.8%,
+            76.1% 97.7%,
+            74.1% 44.1%
+          );
+        "
+      ></div>
+    </div>
   </div>
-
-  <Features />
-  <TrustedLogos />
+  <TrustedLogos bg="" />
+  <SemiFeat />
+  <Testimonial />
   <Highlighted />
   <CallMe />
 </template>

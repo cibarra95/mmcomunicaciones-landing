@@ -26,9 +26,9 @@ const sidebarIsOpen = ref(false);
             <li>
               <NuxtLink
                 class="text-mm-600 hover:text-mm-500 transition-opacity"
-                to="/acerca"
+                to="/nosotros"
               >
-                Acerca de
+                Nosotros
               </NuxtLink>
             </li>
             <li>
@@ -37,6 +37,14 @@ const sidebarIsOpen = ref(false);
                 to="/contacto"
               >
                 Contacto
+              </NuxtLink>
+            </li>
+            <li>
+              <NuxtLink
+                class="text-mm-600 hover:text-mm-500 transition-opacity"
+                to="/servicios"
+              >
+                Servicios
               </NuxtLink>
             </li>
           </ul>

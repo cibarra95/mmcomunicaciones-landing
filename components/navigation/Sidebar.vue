@@ -34,7 +34,7 @@ const ui = {
   wrapper: 'fixed inset-0 flex z-50',
   overlay: {
     base: 'fixed inset-0 transition-opacity',
-    background: 'bg-gray-800/75',
+    background: 'bg-mm-600/75',
     transition: {
       enter: 'ease-in-out duration-500',
       enterFrom: 'opacity-0',
@@ -45,7 +45,7 @@ const ui = {
     },
   },
   base: 'relative flex-1 flex flex-col w-full focus:outline-none',
-  background: 'bg-gray-900',
+  background: 'bg-mm-600',
   ring: '',
   rounded: '',
   padding: '',
@@ -71,7 +71,7 @@ const ui = {
     <div class="absolute right-0 mx-6 my-2">
       <UButton
         class="rounded-full"
-        color="gray"
+        color="primary"
         size="xl"
         trailing-icon="heroicons:x-mark-16-solid"
         variant="ghost"
@@ -93,10 +93,10 @@ const ui = {
       <li>
         <NuxtLink
           class="text-white hover:opacity-60 transition-opacity"
-          to="/acerca"
+          to="/nosotros"
           @click.self="closeSidebar"
         >
-          Acerca de
+          Nosotros
         </NuxtLink>
       </li>
       <li>
@@ -106,6 +106,15 @@ const ui = {
           @click.self="closeSidebar"
         >
           Contacto
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          class="text-white hover:opacity-60 transition-opacity"
+          to="/servicios"
+          @click.self="closeSidebar"
+        >
+          Servicios
         </NuxtLink>
       </li>
     </ul>
