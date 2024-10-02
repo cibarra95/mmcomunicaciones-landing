@@ -26,9 +26,9 @@
                   <dd>
                     <ULink
                       class="font-semibold text-mm-500 hover:text-mm-600"
-                      to="mailto:ventas@mmcomunicaciones.mx"
+                      to="mailto:ventas@mm-comunicaciones.com.mx"
                     >
-                      ventas@mmcomunicaciones.mx
+                      ventas@mm-comunicaciones.com.mx
                     </ULink>
                   </dd>
                 </div>
@@ -52,9 +52,9 @@
                   <dd>
                     <ULink
                       class="font-semibold text-mm-500 hover:text-mm-600"
-                      to="mailto:ventasleon@mmcomunicaciones.mx"
+                      to="mailto:	facturacion@mm-comunicaciones.com.mx"
                     >
-                      ventasleon@mmcomunicaciones.mx
+                      facturacion@mm-comunicaciones.com.mx
                     </ULink>
                   </dd>
                 </div>
@@ -78,9 +78,9 @@
                   <dd>
                     <ULink
                       class="font-semibold text-mm-500 hover:text-mm-600"
-                      to="mailto:mttommcom@gmail.com"
+                      to="mailto:reparaciones@mm-comunicaciones.com.mx"
                     >
-                      mttommcom@gmail.com
+                      reparaciones@mm-comunicaciones.com.mx
                     </ULink>
                   </dd>
                 </div>
@@ -104,9 +104,9 @@
                   <dd>
                     <ULink
                       class="font-semibold text-mm-500 hover:text-mm-600"
-                      to="mailto:motorola@mmcomunicaciones.mx"
+                      to="mailto:proyectos@mm-comunicaciones.com.mx"
                     >
-                      motorola@mmcomunicaciones.mx
+                      proyectos@mm-comunicaciones.com.mx
                     </ULink>
                   </dd>
                 </div>
