@@ -49,13 +49,6 @@ defineOptions({
                   24/7, con tecnología avanzada y soluciones integrales para
                   diversas necesidades de seguridad.
                 </p>
-                <NuxtLink
-                  class="text-mm-500 group-hover:text-plantation-200 flex items-center justify-center space-x-2"
-                  to="/servicios"
-                >
-                  <span>Ver más</span>
-                  <UIcon name="heroicons:arrow-long-right-16-solid" />
-                </NuxtLink>
               </div>
             </div>
           </div>
@@ -86,13 +79,6 @@ defineOptions({
                   y seguridad con comunicación instantánea, cobertura extendida
                   y radios confiables.
                 </p>
-                <NuxtLink
-                  class="text-mm-500 group-hover:text-plantation-200 flex items-center justify-center space-x-2"
-                  to="/servicios"
-                >
-                  <span>Ver más</span>
-                  <UIcon name="heroicons:arrow-long-right-16-solid" />
-                </NuxtLink>
               </div>
             </div>
           </div>
@@ -123,17 +109,18 @@ defineOptions({
                   tecnología avanzada en biometría, lectores de proximidad,
                   cerraduras eléctricas y barreras vehiculares.
                 </p>
-                <NuxtLink
-                  class="text-mm-500 group-hover:text-plantation-200 flex items-center justify-center space-x-2"
-                  to="/servicios"
-                >
-                  <span>Ver más</span>
-                  <UIcon name="heroicons:arrow-long-right-16-solid" />
-                </NuxtLink>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="mt-8">
+        <UButton size="xl" target="_self" to="/servicios">
+          Ver más
+          <template #trailing>
+            <UIcon class="w-5 h-5" name="i-heroicons-arrow-right-20-solid" />
+          </template>
+        </UButton>
       </div>
     </div>
   </div>

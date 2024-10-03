@@ -33,7 +33,7 @@
           rel="noopener"
           size="xl"
           target="_blank"
-          to="https://wa.me/4703000148?text=Hola,%20quiero%20más%20información"
+          to="https://wa.me/4793000148?text=Hola,%20quiero%20más%20información"
           variant="solid"
         >
           WhatsApp
@@ -41,7 +41,7 @@
         <a
           v-if="false"
           class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          href="https://wa.me/4703000148?text=Hola,%20quiero%20más%20información"
+          href="https://wa.me/4793000148?text=Hola,%20quiero%20más%20información"
           target="_blank"
         >
           WhatsApp

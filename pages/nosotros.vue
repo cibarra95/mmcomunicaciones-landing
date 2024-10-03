@@ -61,18 +61,12 @@ const timeline = [
               Líderes en Tecnología Inalámbrica y Sistemas de Seguridad.
             </h1>
             <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p class="text-lg leading-8 text-white text-justify">
+              <p class="text-lg leading-8 text-white text-justify pt-16">
                 Somos una empresa dedicada a ofrecer un amplio portafolio de
                 productos de vanguardia en comunicación inalámbrica y sistemas
                 de seguridad, proporcionando soluciones profesionales que se
                 adaptan de manera eficiente a las necesidades específicas de
                 cada cliente, siempre a precios competitivos.
-                <br />
-                <br />
-                Con más de 30 años de experiencia, trabajamos continuamente para
-                mejorar nuestros servicios y demostrar nuestro compromiso con
-                nuestros clientes, esforzándonos por cumplir y superar sus
-                expectativas.
               </p>
             </div>
             <NuxtImg
@@ -130,13 +124,13 @@ const timeline = [
           <h2
             class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
           >
-            Nuestros clientes nos aman
+            Marcas que confían en nostros
           </h2>
           <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-            Nuestros clientes nos aman por nuestras soluciones de seguridad
-            personalizadas, tecnología avanzada y atención al cliente
-            excepcional. Su tranquilidad es nuestra prioridad, y nuestro
-            compromiso con su satisfacción nos distingue en el mercado.
+            Con más de 30 años de experiencia, trabajamos continuamente para
+            mejorar nuestros servicios y demostrar nuestro compromiso con
+            nuestros clientes, esforzándonos por cumplir y superar sus
+            expectativas.
           </p>
           <TrustedLogos />
           <div

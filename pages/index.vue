@@ -13,7 +13,7 @@ defineOptions({
     <NuxtImg
       alt="hero-cctv"
       class="absolute inset-0 -z-10 h-full w-full object-cover"
-      src="/hero/cctv2.jpg"
+      src="/hero/radio.jpeg"
     />
     <div
       aria-hidden="true"
@@ -70,7 +70,7 @@ defineOptions({
               rel="noopener"
               size="xl"
               target="_self"
-              to="/acerca"
+              to="/nosotros"
               variant="outline"
             >
               Nosotros

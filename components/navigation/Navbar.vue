@@ -16,7 +16,7 @@ const sidebarIsOpen = ref(false);
             alt="logo"
             class="h-10 w-auto"
             loading="lazy"
-            src="/servicios/logo.png"
+            src="/inicio/logo.webp"
           />
         </NuxtLink>
         <div
@@ -34,17 +34,17 @@ const sidebarIsOpen = ref(false);
             <li>
               <NuxtLink
                 class="text-mm-600 hover:text-mm-500 transition-opacity"
-                to="/contacto"
+                to="/servicios"
               >
-                Contacto
+                Servicios
               </NuxtLink>
             </li>
             <li>
               <NuxtLink
                 class="text-mm-600 hover:text-mm-500 transition-opacity"
-                to="/servicios"
+                to="/contacto"
               >
-                Servicios
+                Contacto
               </NuxtLink>
             </li>
           </ul>

@@ -6,10 +6,10 @@ defineOptions({ name: 'Testimonial' });
   <div class="relative overflow-hidden bg-transparent pb-32 pt-16">
     <div class="relative">
       <div
-        class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+        class="xl:mx-auto xl:grid xl:max-w-7xl xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-24 xl:px-8"
       >
         <div
-          class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:py-16"
+          class="mx-auto max-w-xl px-6 xl:mx-0 xl:max-w-none xl:px-0 xl:py-16"
         >
           <div>
             <div>
@@ -26,7 +26,7 @@ defineOptions({ name: 'Testimonial' });
               <h2 class="text-3xl font-bold tracking-tight text-gray-900">
                 Siempre al día con el soporte al cliente
               </h2>
-              <p class="mt-4 text-lg text-gray-500">
+              <p class="mt-4 text-xl text-gray-500">
                 Ofrecemos un soporte al cliente eficiente y personalizado,
                 asegurando respuestas rápidas y soluciones efectivas para
                 mantener la satisfacción de tus clientes en todo momento.
@@ -60,13 +60,13 @@ defineOptions({ name: 'Testimonial' });
             </blockquote>
           </div>
         </div>
-        <div class="mt-12 sm:mt-16 lg:mt-0">
+        <div class="mt-12 sm:mt-16 xl:mt-0">
           <div
-            class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+            class="-mr-48 pl-6 md:-mr-16 xl:relative xl:m-0 xl:h-full xl:px-0"
           >
             <NuxtImg
               alt="cctv3"
-              class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 xl:absolute xl:left-0 xl:h-full xl:w-auto xl:max-w-none"
               src="/hero/reparacion.jpg"
             />
           </div>
@@ -75,10 +75,10 @@ defineOptions({ name: 'Testimonial' });
     </div>
     <div class="mt-24">
       <div
-        class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+        class="xl:mx-auto xl:grid xl:max-w-7xl xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-24 xl:px-8"
       >
         <div
-          class="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:py-32"
+          class="mx-auto max-w-xl px-6 xl:col-start-2 xl:mx-0 xl:max-w-none xl:px-0 xl:py-32"
         >
           <div>
             <div>
@@ -103,10 +103,9 @@ defineOptions({ name: 'Testimonial' });
             </div>
             <div class="mt-6">
               <h2 class="text-3xl font-bold tracking-tight text-gray-900">
-                Descubre las soluciones efectivas que ofrecemos para tu
-                protección
+                Vuélvete socio andear
               </h2>
-              <p class="mt-4 text-lg text-gray-500">
+              <p class="mt-4 text-xl text-gray-500">
                 Con nuestros avanzados sistemas de alarmas, soluciones de
                 control de acceso y sistemas de videovigilancia, garantizamos
                 una defensa sólida contra amenazas potenciales.
@@ -114,13 +113,13 @@ defineOptions({ name: 'Testimonial' });
             </div>
           </div>
         </div>
-        <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+        <div class="mt-12 sm:mt-16 xl:col-start-1 xl:mt-0">
           <div
-            class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+            class="-ml-48 pr-6 md:-ml-16 xl:relative xl:m-0 xl:h-full xl:px-0"
           >
             <NuxtImg
               alt="cctv3"
-              class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:-left-44 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 xl:absolute xl:-left-44 xl:h-full xl:w-auto xl:max-w-none"
               src="/hero/cctv3.jpg"
             />
           </div>

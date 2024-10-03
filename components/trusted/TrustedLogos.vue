@@ -10,12 +10,17 @@ const images = [
   { src: '/inicio/pirelli.png', alt: 'Pirelli' },
   { src: '/inicio/plazamayor.png', alt: 'Plaza Mayor' },
   { src: '/inicio/santodomingo.png', alt: 'Santo Domingo' },
-  { src: '/inicio/poliforum.png', alt: 'Poliforum' },
-  { src: '/inicio/dinamica.png', alt: 'Dinámica' },
-  { src: '/inicio/bomberos.png', alt: 'Bomberos' },
-  { src: '/inicio/pirelli.png', alt: 'Pirelli' },
-  { src: '/inicio/plazamayor.png', alt: 'Plaza Mayor' },
-  { src: '/inicio/santodomingo.png', alt: 'Santo Domingo' },
+  { src: '/inicio/akron.png', alt: 'Akron' },
+  { src: '/inicio/altacia.png', alt: 'Altacia' },
+  { src: '/inicio/andrea.png', alt: 'Andrea' },
+  { src: '/inicio/castores.png', alt: 'Castores' },
+  { src: '/inicio/cruzazul.png', alt: 'Cruz Azul' },
+  { src: '/inicio/gova.png', alt: 'Gova' },
+  { src: '/inicio/reyes.png', alt: 'Reyes' },
+  { src: '/inicio/ryder.png', alt: 'Ryder' },
+  { src: '/inicio/martinrea.png', alt: 'Martin Rea' },
+  { src: '/inicio/ugn.png', alt: 'Ugn' },
+  { src: '/inicio/sembradora.png', alt: 'Sembradora' },
 ];
 
 defineProps({

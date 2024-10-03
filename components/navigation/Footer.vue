@@ -2,7 +2,10 @@
 import { defineComponent, h } from 'vue';
 
 const navigation = {
-  solutions: [{ name: 'Acerca de', href: '/acerca' }],
+  solutions: [
+    { name: 'Nosotros', href: '/nosotros' },
+    { name: 'Servicios', href: '/servicios' },
+  ],
   support: [{ name: 'Contacto', href: '/contacto' }],
   company: [
     { name: 'About', href: '#' },
@@ -62,7 +65,7 @@ function getCurrentYear() {
           <NuxtImg
             alt="mm-comunicaciones"
             class="h-10"
-            src="/servicios/logo.png"
+            src="/inicio/logo.webp"
           />
           <p class="text-sm leading-6 text-gray-700">
             Somos la seguridad, que da confianza.

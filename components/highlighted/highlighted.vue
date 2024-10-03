@@ -9,16 +9,34 @@ const items1 = [
   '/servicios/foto7.jpg',
 ] as string[];
 
+const description1 = [
+  'Sistema de videovigilancia en Ryder',
+  'Sistema de videovigilancia en Minera Adularia Celaya',
+  'Sistema de videovigilancia en Municipio San Francisco del Rincón',
+] as object[];
+
 const items2 = [
-  '/servicios/foto2.jpg',
-  '/servicios/foto5.jpg',
+  '/servicios/tulum.jpg',
+  '/servicios/mina.jpg',
   '/servicios/foto8.jpg',
 ] as string[];
 
+const description2 = [
+  'Sistema radiocomunicación y energía solar en Aeropuerto Internacional de Tulum',
+  'Extension de cobertura de radiocomunicacion dentro de la mina, en Mina Santo Domingo en Chihuahua',
+  'Sistema de radiocomunicación en C4 León, Guanajuato',
+] as string[];
+
 const items3 = [
-  '/servicios/foto3.jpg',
-  '/servicios/foto6.jpg',
+  '/servicios/migracion.jpg',
+  '/servicios/trenmaya.jpg',
   '/servicios/foto9.jpg',
+] as string[];
+
+const description3 = [
+  'Capacitación en C4 para migración de radiocomunicación analogico-digital',
+  'Instalación de torre y sistema de radiocomunicación en Tren Maya',
+  'Renta de equipo de radiocuminicación para Rally México',
 ] as string[];
 
 const carouselRef = ref();
@@ -34,7 +52,7 @@ onMounted(() => {
     }
 
     carouselRef.value.next();
-  }, 4000);
+  }, 6000);
 
   setInterval(() => {
     if (!carouselRef1.value) return;
@@ -44,7 +62,7 @@ onMounted(() => {
     }
 
     carouselRef1.value.next();
-  }, 4500);
+  }, 6500);
   setInterval(() => {
     if (!carouselRef2.value) return;
 
@@ -53,7 +71,7 @@ onMounted(() => {
     }
 
     carouselRef2.value.next();
-  }, 5000);
+  }, 7000);
 });
 </script>
 
@@ -66,10 +84,10 @@ onMounted(() => {
       <div class="highlighted-carousel-container">
         <UCarousel
           ref="carouselRef"
-          v-slot="{ item }"
+          v-slot="{ item, index }"
           :items="items1"
           :ui="{ item: 'basis-full' }"
-          class="highlighted-carousel-first"
+          class="highlighted-carousel-first relative"
         >
           <NuxtImg
             :draggable="false"
@@ -79,11 +97,18 @@ onMounted(() => {
             height="800"
             width="600"
           />
+          <div
+            v-if="description1[index]"
+            :key="index"
+            class="absolute top-0 w-full h-24 bg-plantation-800/50 z-10 text-white p-4"
+          >
+            {{ description1[index] }}
+          </div>
         </UCarousel>
 
         <UCarousel
           ref="carouselRef1"
-          v-slot="{ item }"
+          v-slot="{ item, index }"
           :items="items2"
           :ui="{ item: 'basis-full' }"
           class="highlighted-carousel-second"
@@ -96,10 +121,18 @@ onMounted(() => {
             height="800"
             width="600"
           />
+          <div
+            v-if="description2[index]"
+            :key="index"
+            class="absolute top-0 w-full h-24 bg-plantation-800/50 z-10 text-white p-4"
+          >
+            {{ description2[index] }}
+          </div>
         </UCarousel>
+
         <UCarousel
           ref="carouselRef2"
-          v-slot="{ item }"
+          v-slot="{ item, index }"
           :items="items3"
           :ui="{ item: 'basis-full' }"
           class="highlighted-carousel-third"
@@ -112,6 +145,13 @@ onMounted(() => {
             height="800"
             width="600"
           />
+          <div
+            v-if="description3[index]"
+            :key="index"
+            class="absolute top-0 w-full h-24 bg-plantation-800/50 z-10 text-white p-4"
+          >
+            {{ description3[index] }}
+          </div>
         </UCarousel>
       </div>
     </div>
@@ -146,11 +186,11 @@ onMounted(() => {
     }
 
     &-second {
-      @apply w-full h-80  rounded-lg overflow-hidden hidden sm:block;
+      @apply w-full h-80  rounded-lg overflow-hidden;
     }
 
     &-third {
-      @apply w-full h-80  rounded-lg overflow-hidden hidden lg:block;
+      @apply w-full h-80  rounded-lg overflow-hidden block md:hidden lg:block;
     }
   }
 }
