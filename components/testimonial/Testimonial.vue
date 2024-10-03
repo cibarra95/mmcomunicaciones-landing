@@ -103,12 +103,12 @@ defineOptions({ name: 'Testimonial' });
             </div>
             <div class="mt-6">
               <h2 class="text-3xl font-bold tracking-tight text-gray-900">
-                Vuélvete socio andear
+                Descubre las soluciones efectivas que ofrecemos para tu negocio
               </h2>
               <p class="mt-4 text-xl text-gray-500">
-                Con nuestros avanzados sistemas de alarmas, soluciones de
-                control de acceso y sistemas de videovigilancia, garantizamos
-                una defensa sólida contra amenazas potenciales.
+                Protege lo que más te importa con nuestras soluciones avanzadas.
+                Siempre a la vanguardia, garantizamos seguridad máxima con las
+                tecnologías más eficientes y modernas.
               </p>
             </div>
           </div>
@@ -120,7 +120,7 @@ defineOptions({ name: 'Testimonial' });
             <NuxtImg
               alt="cctv3"
               class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 xl:absolute xl:-left-44 xl:h-full xl:w-auto xl:max-w-none"
-              src="/hero/cctv3.jpg"
+              src="/hero/talk.jpeg"
             />
           </div>
         </div>

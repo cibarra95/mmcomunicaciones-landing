@@ -59,7 +59,7 @@ function getCurrentYear() {
 <template>
   <footer aria-labelledby="footer-heading" class="bg-mm-500/20">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+    <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
           <NuxtImg
@@ -115,32 +115,27 @@ function getCurrentYear() {
               </ul>
             </div>
           </div>
-          <div v-if="false" class="md:grid md:grid-cols-2 md:gap-8">
+          <div v-if="true" class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">
-                Company
-              </h3>
-              <ul class="mt-6 space-y-4" role="list">
-                <li v-for="item in navigation.company" :key="item.name">
-                  <a
-                    :href="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-white"
-                    >{{ item.name }}</a
-                  >
-                </li>
-              </ul>
+              <div v-if="false">
+                <h3 class="text-sm font-semibold leading-6 text-white">
+                  Company
+                </h3>
+                <ul class="mt-6 space-y-4" role="list">
+                  <li v-for="item in navigation.company" :key="item.name">
+                    <a
+                      :href="item.href"
+                      class="text-sm leading-6 text-gray-300 hover:text-white"
+                      >{{ item.name }}</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-              <ul class="mt-6 space-y-4" role="list">
-                <li v-for="item in navigation.legal" :key="item.name">
-                  <a
-                    :href="item.href"
-                    class="text-sm leading-6 text-gray-300 hover:text-white"
-                    >{{ item.name }}</a
-                  >
-                </li>
-              </ul>
+              <NuxtLink target="_blank" to="https://voxandear.com.mx/">
+                <NuxtImg src="/hero/logovox.png" />
+              </NuxtLink>
             </div>
           </div>
         </div>
