@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-import { useHead, useSeoMeta } from 'unhead';
-
 useHead({
   meta: [
     {
@@ -16,7 +14,6 @@ useSeoMeta({
   title: 'mm-comunicaciones',
   ogTitle: 'mm-comunicaciones',
   description: '',
-  lang: 'es',
   ogDescription: 'mm-comunicaciones',
   ogType: 'website',
   ogUrl: 'https://mm-comunicaciones.com.mx',

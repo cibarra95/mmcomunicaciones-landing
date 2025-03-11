@@ -19,7 +19,7 @@
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.16.0",
     "@selemondev/vue3-marquee": "^0.0.8",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.16.0",
     "vue": "latest"
   },
   "devDependencies": {
