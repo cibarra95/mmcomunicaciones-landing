@@ -27,7 +27,10 @@ const handleError = () => {
       <div class="mt-10 flex items-center justify-center gap-x-6">
         <UButton
           color="primary"
+          rel="noopener"
           size="xl"
+          target="_self"
+          to="/"
           variant="solid"
           @click.prevent="handleError"
         >
@@ -36,6 +39,7 @@ const handleError = () => {
         <UButton
           color="primary"
           size="xl"
+          target="_self"
           to="/contacto"
           variant="outline"
           @click.prevent="handleError"

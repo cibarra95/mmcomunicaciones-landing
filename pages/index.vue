@@ -71,7 +71,7 @@ defineOptions({
               size="xl"
               target="_self"
               to="/nosotros"
-              variant="outline"
+              variant="soft"
             >
               Nosotros
             </UButton>

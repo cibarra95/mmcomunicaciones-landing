@@ -7,16 +7,16 @@ const sidebarIsOpen = ref(false);
 
 <template>
   <header
-    class="sticky top-0 z-20 shadow-sm py-2 bg-white/40 sm:py-3 backdrop-blur-xl h-[68px]"
+    class="sticky top-0 z-20 shadow-sm py-2 bg-white/40 sm:py-3 backdrop-blur-xl h-[78px]"
   >
-    <div class="m-auto container px-6 sm:px-0">
+    <div class="m-auto container px-6 sm:px-8">
       <nav class="flex items-center justify-between font-semibold">
         <NuxtLink to="/">
           <NuxtImg
             alt="logo"
-            class="h-10 w-auto"
+            class="h-14 w-auto"
             loading="lazy"
-            src="/inicio/logo.webp"
+            src="/inicio/mm-logo-bg.png"
           />
         </NuxtLink>
         <div
