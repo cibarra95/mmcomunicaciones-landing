@@ -2,13 +2,18 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxtjs/tailwindcss', '@nuxt/image'],
-  compatibilityDate: '2024-08-18',
+
+  ui: {
+    global: true,
+  },
+
   components: [
     {
       path: '~/components',
       pathPrefix: false,
     },
   ],
+
   image: {
     provider: 'imagekit',
     imagekit: {
@@ -16,7 +21,10 @@ export default defineNuxtConfig({
     },
     format: ['webp'],
   },
+
   colorMode: {
     preference: 'light',
   },
+
+  compatibilityDate: '2025-03-11',
 });
