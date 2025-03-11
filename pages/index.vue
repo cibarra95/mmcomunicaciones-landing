@@ -1,8 +1,6 @@
 <script lang="ts" setup>
-import SemiFeat from '~/components/features/SemiFeat.vue';
-
 defineOptions({
-  name: 'Index',
+  name: 'Inicio',
 });
 </script>
 
