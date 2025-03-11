@@ -21,7 +21,7 @@ defineOptions({
         hogar y negocio.
       </p>
       <div class="mt-20">
-        <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 gap-8 lg:gap-12 lg:grid-cols-3">
           <div class="pt-6 group">
             <div
               class="transition-all group-hover:ease-in-out group-hover:delay-200 flow-root rounded-lg group-hover:bg-plantation-800 bg-gray-50 px-6 pb-8 border border-gray-200 shadow"
@@ -115,7 +115,13 @@ defineOptions({
         </div>
       </div>
       <div class="mt-8">
-        <UButton size="xl" target="_self" to="/servicios">
+        <UButton
+          color="primary"
+          size="xl"
+          target="_self"
+          to="/servicios"
+          variant="outline"
+        >
           Ver más
           <template #trailing>
             <UIcon class="w-5 h-5" name="i-heroicons-arrow-right-20-solid" />
