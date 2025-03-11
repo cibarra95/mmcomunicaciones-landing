@@ -62,14 +62,18 @@ function getCurrentYear() {
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <NuxtImg
-            alt="mm-comunicaciones"
-            class="h-10"
-            src="/inicio/logo.webp"
-          />
-          <p class="text-sm leading-6 text-gray-700">
-            Somos la seguridad, que da confianza.
-          </p>
+          <div>
+            <NuxtLink to="/">
+              <NuxtImg
+                alt="mm-comunicaciones"
+                class="h-24 w-auto"
+                src="/inicio/mm-logo-bg.png"
+              />
+            </NuxtLink>
+            <p class="text-sm leading-6 text-gray-700">
+              Somos la seguridad, que da confianza.
+            </p>
+          </div>
           <div class="flex space-x-6">
             <a
               v-for="item in navigation.social"

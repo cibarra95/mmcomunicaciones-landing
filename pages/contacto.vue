@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="py-24">
+  <div class="py-12 lg:py-24 px-6 lg:px-12">
     <div class="relative isolate rounded-2xl bg-mm-500/15">
       <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div
