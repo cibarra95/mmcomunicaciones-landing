@@ -23,7 +23,7 @@
           rel="noopener"
           size="xl"
           target="_blank"
-          to="tel:+52 477 777 1140"
+          to="tel:+524777771140"
           variant="solid"
         >
           Llámanos
@@ -33,19 +33,11 @@
           rel="noopener"
           size="xl"
           target="_blank"
-          to="https://wa.me/4793000148?text=Hola,%20quiero%20más%20información"
+          to="https://wa.me/+524793000148?text=Hola,%20quiero%20más%20información"
           variant="solid"
         >
           WhatsApp
         </UButton>
-        <a
-          v-if="false"
-          class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          href="https://wa.me/4793000148?text=Hola,%20quiero%20más%20información"
-          target="_blank"
-        >
-          WhatsApp
-        </a>
       </div>
     </div>
   </div>
