@@ -47,6 +47,16 @@ const sidebarIsOpen = ref(false);
                 Contacto
               </NuxtLink>
             </li>
+            <li>
+              <a
+                  class="text-mm-600 hover:text-mm-500 transition-opacity"
+                  href="https://hytera.mm-comunicaciones.com.mx"
+                  rel="noopener noreferrer"
+                  target="_blank"
+              >
+                Conoce Hytera
+              </a>
+            </li>
           </ul>
           <UButton
             class="rounded-full sm:hidden"
